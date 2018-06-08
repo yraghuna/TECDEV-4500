@@ -1118,7 +1118,6 @@ cisco@ansible-controller:~$
 ---
 - name: get route summary from IOS and XR routers
   hosts: ALL
-  connection: local
 
   tasks:
     - name: collect version info

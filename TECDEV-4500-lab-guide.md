@@ -1691,7 +1691,7 @@ cisco@ansible-controller:~$
            - show ip ospf interface brief
            - show ip ospf neighbor
            - show ip route ospf
-      tags: always
+      tags: ALWAYS
 
       register: IOSPF
 
@@ -1719,7 +1719,7 @@ cisco@ansible-controller:~$
            - show ospf interface brief
            - show ospf neighbor
            - show route ospf
-      tags: always
+      tags: ALWAYS
 
       register: XOSPF
 
@@ -1927,7 +1927,7 @@ cisco@ansible-controller:~$ cat p33-ospf-capture.yml
            - show ip ospf interface brief
            - show ip ospf neighbor
            - show ip route ospf
-      tags: always
+      tags: ALWAYS
 
       register: IOSPF
 
@@ -1955,7 +1955,7 @@ cisco@ansible-controller:~$ cat p33-ospf-capture.yml
            - show ospf interface brief
            - show ospf neighbor
            - show route ospf
-      tags: always
+      tags: ALWAYS
 
       register: XOSPF
 

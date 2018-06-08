@@ -1517,7 +1517,6 @@ hostname R2-XRv
 ---
 - name: XR Router Health Monitoring
   hosts: XR
-  gather_facts: false
   connection: local
 
   tasks:

@@ -996,7 +996,7 @@ PLAY RECAP *********************************************************************
 ```
 $ ansible-playbook p7-loops.yml --syntax-check
 
-$ ansible-playbook p7-loops.yml -v
+$ ansible-playbook p7-loops.yml
 ```
 ### Conclusion
 - In this section you created a loop to iterate the execution of multiple show commands.
@@ -1148,7 +1148,7 @@ cisco@ansible-controller:~$
 ```
 $ ansible-playbook p8-conditionals.yml --syntax-check
 
-$ ansible-playbook p8-conditionals.yml -v
+$ ansible-playbook p8-conditionals.yml
 ```
 
 ### Conclusion

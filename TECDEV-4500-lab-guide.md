@@ -430,11 +430,11 @@ $ ansible-playbook p1-raw.yml -v
       raw:
         show ip int br
 
-      register: P2_RAW_OUTPUT
+      register: P1A_RAW_OUTPUT
 
     - name: print data saved in the variable
       debug:
-        var: P2_RAW_OUTPUT.stdout_lines
+        var: P1A_RAW_OUTPUT.stdout_lines
 ```
 - Predict the outcome of this playbook.
 - Execute the playbook
